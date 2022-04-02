@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PositiveLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>618db7a5-3ba4-4f51-86c7-c4f2b7dc6821</testCaseGuid>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>a8555568-777d-4c1a-8ba1-769bc2087401</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>25e048c5-dd57-45c0-b472-5630a4a499b4</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

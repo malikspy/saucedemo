@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SauceDemo - Login" time="24.804" tests="1" failures="0" errors="0">
+   <testsuite name="SauceDemo - Login" tests="1" failures="0" errors="0" time="24.804" skipped="0" timestamp="2022-04-02 09:08:52" hostname="muktimalik - 202.3.218.138" id="Test Suites/SauceDemo - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muktimalik/git/saucedemo/Reports/20220402_090819/SauceDemo - Login/20220402_090819"/>
+         <property name="logFiles" value="/Users/muktimalik/git/saucedemo/Reports/20220402_090819/SauceDemo - Login/20220402_090819/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muktimalik - 202.3.218.138"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.60"/>
+         <property name="hostAddress" value="202.3.218.138"/>
+         <property name="sessionId" value="69007e8430882449e328fe3f97e6a844"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login/PositiveLogin" time="24.366" classname="Test Cases/Login/PositiveLogin" status="PASSED">
+         <system-out><![CDATA[2022-04-02 09:08:52 - [TEST_CASE][PASSED] - Test Cases/Login/PositiveLogin: Test Cases/Login/PositiveLogin
+
+2022-04-02 09:08:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-02 09:08:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-02 09:08:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-02 09:09:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-02 09:09:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-02 09:09:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-02 09:09:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com' successfully
+
+2022-04-02 09:09:06 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com' successfully
+
+2022-04-02 09:09:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-02 09:09:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-02 09:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login/SetUsername"), username): Text 'standard_user' is set on object 'Object Repository/Login/SetUsername'
+
+2022-04-02 09:09:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/SetUsername'
+
+2022-04-02 09:09:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login/SetPassword"), password): Text 'secret_sauce' is set on object 'Object Repository/Login/SetPassword'
+
+2022-04-02 09:09:11 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/SetPassword'
+
+2022-04-02 09:09:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-02 09:09:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-02 09:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/BtnLogin")): Object: 'Object Repository/Login/BtnLogin' is clicked on
+
+2022-04-02 09:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BtnLogin' is clicked on
+
+2022-04-02 09:09:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-04-02 09:09:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-04-02 09:09:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Dashboard"), "Sauce Labs Backpack"): Actual text and expected text of test object 'Object Repository/Login/Dashboard' are matched.
+
+2022-04-02 09:09:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Dashboard' are matched.
+
+2022-04-02 09:09:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-02 09:09:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-02 09:08:52 - [TEST_SUITE][PASSED] - SauceDemo - Login: Test Cases/Login/PositiveLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SauceDemo - Login,Chrome 100.0.4896.60,,,2022-04-02 09:08:52,2022-04-02 09:09:17,24.804s,PASSED
+,,,,,,,
+Test Cases/Login/PositiveLogin,Chrome 100.0.4896.60,,,2022-04-02 09:08:52,2022-04-02 09:09:17,24.366s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.60,,,2022-04-02 09:08:53,2022-04-02 09:09:02,8.702s,PASSED
+maximizeWindow(),Chrome 100.0.4896.60,,,2022-04-02 09:09:02,2022-04-02 09:09:02,0.201s,PASSED
+navigateToUrl(url),Chrome 100.0.4896.60,,,2022-04-02 09:09:02,2022-04-02 09:09:06,4.569s,PASSED
+delay(2),Chrome 100.0.4896.60,,,2022-04-02 09:09:06,2022-04-02 09:09:09,2.067s,PASSED
+"setText(findTestObject(""Login/SetUsername""), username)",Chrome 100.0.4896.60,,,2022-04-02 09:09:09,2022-04-02 09:09:10,1.331s,PASSED
+"setText(findTestObject(""Login/SetPassword""), password)",Chrome 100.0.4896.60,,,2022-04-02 09:09:10,2022-04-02 09:09:11,1.138s,PASSED
+delay(2),Chrome 100.0.4896.60,,,2022-04-02 09:09:11,2022-04-02 09:09:13,2.013s,PASSED
+"click(findTestObject(""Login/BtnLogin""))",Chrome 100.0.4896.60,,,2022-04-02 09:09:13,2022-04-02 09:09:14,1.121s,PASSED
+delay(2),Chrome 100.0.4896.60,,,2022-04-02 09:09:14,2022-04-02 09:09:16,2.019s,PASSED
+"verifyElementText(findTestObject(""Login/Dashboard""), ""Sauce Labs Backpack"")",Chrome 100.0.4896.60,,,2022-04-02 09:09:16,2022-04-02 09:09:17,0.631s,PASSED
+closeBrowser(),Chrome 100.0.4896.60,,,2022-04-02 09:09:17,2022-04-02 09:09:17,0.096s,PASSED
